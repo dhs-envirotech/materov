@@ -1,6 +1,6 @@
 # Setup
 
-This is the code used to control the underwater ROV for the MateROV competeition.
+This is the code used to control the underwater ROV for the [MateROV](https://materovcompetition.org/) competeition.
 
 ## Usage
 Let's assuming you are currently in the `~/materov` cloned directory
