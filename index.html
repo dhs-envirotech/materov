@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MateROV Controller</title>
+    <link rel="stylesheet" href="/static/pico.min.css" />
+    <script src="/static/socket.io.min.js"></script>
+    <style>
+        .keyboard article {
+            text-align: center;
+            vertical-align: middle;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid" style="padding: 20px; grid-template-columns: 1fr 1fr;">
+        <article class="keyboard">
+            <h5>Keyboard</h5>
+            <div class="grid">
+                <article>Q</article>
+                <article>W</article>
+                <article>E</article>
+            </div>
+            <div class="grid">
+                <article>A</article>
+                <article>S</article>
+                <article>D</article>
+            </div>
+        </article>
+        </article>
+        <article>
+            <h5>Camera</h5>
+        </article>
+        <article>
+            <h5>State</h5>
+            <p id="connected"></p>
+            <p id="state"></p>
+        </article>
+    </div>
+
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

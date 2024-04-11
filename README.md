@@ -15,5 +15,15 @@ source venv/bin/activate
 ```
 3. Install packages
 ```bash
-pip3 install inputs adafruit-circuitpython-motorkit
+pip3 install flask adafruit-circuitpython-motorkit
 ```
+4. Run!
+```bash
+python3 main.py
+```
+
+## About
+
+I used [Socket.IO](https://socket.io) and [PicoCSS](https://picocss.com) for this minimal project.
+
+Colors are also from PicoCSS: https://picocss.com/docs/colors
